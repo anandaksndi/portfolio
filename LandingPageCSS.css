@@ -1,0 +1,318 @@
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 1920px;
+    margin: auto;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191F25;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    z-index: 5;
+}
+
+.logo{
+    width: 10%;
+}
+
+.topnav{
+    display: flex;
+    padding-left: 1000px;
+    justify-content: right;
+}
+
+.topnav a{
+    font-weight: bold;
+    color: #36414D;
+    text-align: center;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+a.here{
+    color: #F4C57D;
+}
+
+  body{
+    margin: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #191F25;
+}
+
+.content{
+    display: flex;
+    margin: auto;
+    padding-top: 450px;
+    padding-bottom: 420px;
+    width: 1920px;
+    background-color: #191F25;
+}
+
+.info{
+    margin: 100px;
+}
+
+.name1, .name2{
+    margin: 0;
+}
+
+.name1{
+    font-weight: bold;
+    font-size: 128px;
+    color: #fcfcfc;
+}
+
+.name2{
+    font-weight: 300;
+    font-size: 40px;
+    color: #41DEE9;
+}
+
+.arrowDown{
+    position: relative;
+    top: 70px;
+    width: 7%;
+}
+    
+  .img-hover-zoom img{
+    transition: transform .5s ease;
+  }
+  
+  .img-hover-zoom:hover img{
+    transform: scale(1.2);
+  }
+
+.seperator{
+    height: 70px;
+    background-color: #191F25;
+}
+
+.work{
+    display: flex;
+    margin: auto;
+    background-color: #191F25;
+    width: 1920px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.work-content{
+    margin: auto;
+    padding: 10px;
+}
+
+.caseStudy, .uiDesign{
+    color: #fcfcfc;
+    font-weight: bold;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.projectCaseStudy{
+    margin: auto;
+    background-color: #191F25;
+}
+
+.projectCaseStudy1, .projectCaseStudy2, .projectCaseStudy3, .projectCaseStudy4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projectCaseStudy1 img, .projectCaseStudy2 img, .projectCaseStudy3 img, .projectCaseStudy4 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.projectCaseStudy1 {
+    background-color: rgba(255, 255, 0, 0);
+}
+
+.projectCaseStudy2 {
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.projectCaseStudy3 {
+    background-color: rgba(0, 128, 0, 0);
+}
+
+.projectCaseStudy4 {
+    background-color: #191F25;
+}
+
+.overlayCS1, .overlayCS2, .overlayCS3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    max-width: 600px;
+    max-height: 400px;
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    background-color: rgba(25, 31, 37, 0.8);
+  }
+
+  .overlayCS1, .overlayCS2{
+    top: 1678px;
+  }
+
+  .overlayCS3{
+    top: 2178px;
+  }
+
+  .projectCaseStudy1:hover .overlayCS1, .projectCaseStudy2:hover .overlayCS2, .projectCaseStudy3:hover .overlayCS3{
+    opacity: 1;
+  }
+
+  .tittleStudyCase{
+    font-size: 30px;
+    color: #fcfcfc;
+  }
+
+.projectUiDesign{
+    margin: auto;
+    background-color: #191F25;
+}
+
+.projectUiDesign1, .projectUiDesign2, .projectUiDesign3, .projectUiDesign4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.projectUiDesign1 img, .projectUiDesign2 img, .projectUiDesigny3 img, .projectUiDesign4 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+.projectUiDesign1 {
+    background-color: yellow;
+}
+
+.projectUiDesign2 {
+    background-color: blue;
+}
+
+.projectUiDesign3 {
+    background-color: green;
+}
+
+.projectUiDesign4 {
+    background-color: cyan;
+}
+
+.overlay1, .overlay2, .overlay3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    max-width: 600px;
+    max-height: 400px;
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    background-color: rgba(25, 31, 37, 0.8);
+  }
+
+  .overlay1, .overlay2{
+    top: 1688px;
+  }
+
+  .overlay3{
+    top: 2188px;
+  }
+
+  .projectUiDesign1:hover .overlay1, .projectUiDesign2:hover .overlay2, .projectUiDesign3:hover .overlay3{
+    opacity: 1;
+  }
+
+  .tittleUiDesign{
+    font-size: 30px;
+    color: #fcfcfc;
+  }
+
+  
+.footer {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    background-color: #191F25;
+    padding-bottom: 30px;
+}
+
+.leftSideFooter{
+    color: #fcfcfc;
+    padding-right: 600px;
+    text-align: left;
+    background-color: #191F25;
+}
+
+.partnerUp, .partner, .myResume, .resume{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.partner, .resume{
+    text-decoration: none;
+}
+
+.partner{
+    color: #41DEE9;
+}
+
+.resume{
+    color: #F4C57D;
+}
+
+.infoFooter{
+    font-size: 18px;
+}
+
+.rightSideFooter{
+    padding-left: 600px;
+    text-align: right;
+    background-color: #191F25;
+    padding-top: 50px;
+}
+
+.rightSideFooter a{
+    font-size: 23px;
+    text-decoration: none;
+    color: #fcfcfc;
+    padding-bottom: 30px;
+  }
+
